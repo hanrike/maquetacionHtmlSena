@@ -1,0 +1,14 @@
+body{
+    margin: 0px;
+}
+ul{
+    list-style: none; /*con esto quito los bullet o puntos de la lista*/
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    display: flex; /*pongo el listado de forma horizontal*/
+    justify-content: space-between;
+    padding: 10px;
+}
