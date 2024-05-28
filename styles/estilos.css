@@ -16,3 +16,19 @@ ul{
 .logo{
     height: 70px; /*le ponemos la medida al logo*/
 }
+
+.mainButton{  /*Estoy modificando los atribito del boton nuevo post*/
+    background-color: rgb(65, 65, 160);
+    color:white;
+    border:0px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: bolder;
+    box-shadow: 2px 2px blue;
+}
+
+.mainButton:hover{ /*con dos puntos utilizo los modificadores en css*/
+    cursor:pointer;
+    transform: scale(1.15);
+}
+    
