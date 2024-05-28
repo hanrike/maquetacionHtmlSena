@@ -17,9 +17,7 @@ ul{
     height: 70px; /*le ponemos la medida al logo*/
 }
 
-.mainButton{  /*Estoy modificando los atribito del boton nuevo post*/
-    background-color: rgb(65, 65, 160);
-    color:white;
+.button{
     border:0px;
     padding: 5px 10px;
     border-radius: 20px;
@@ -27,8 +25,37 @@ ul{
     box-shadow: 2px 2px blue;
 }
 
-.mainButton:hover{ /*con dos puntos utilizo los modificadores en css*/
+.button:hover{ /*con dos puntos utilizo los modificadores en css*/
     cursor:pointer;
     transform: scale(1.15);
 }
+
+.mainButton{  /*Estoy modificando los atribito del boton nuevo post*/
+    background-color: rgb(65, 65, 160);
+    color:white;
     
+}
+
+.mainButton:hover{ /*con dos puntos utilizo los modificadores en css*/
+    box-shadow: 1px 1px rgb(127, 127, 204);
+}
+
+.secundaryButton:hover{
+    box-shadow: 1px 1px rgb(0, 255, 64);
+}
+
+.buscar{
+    background-color: white;
+    border: 1px solid blue;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.buscar:focus-within {
+    border: 2px solid green;
+}
+
+.buscar>input{  /*con este hago clases a traves de componentes hijos*/
+    outline: none;
+    border:0px
+}
