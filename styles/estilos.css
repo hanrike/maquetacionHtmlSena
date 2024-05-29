@@ -11,10 +11,17 @@ ul{
     display: flex; /*pongo el listado de forma horizontal*/
     justify-content: space-between;
     padding: 10px;
+    background-color: rgb(175, 175, 228);
+    border-bottom: 1px solid rgb(102, 102, 217);
+}
+
+.navbar>li{
+    display: flex;
+    align-items: center;
 }
 
 .logo{
-    height: 70px; /*le ponemos la medida al logo*/
+    height: 50px; /*le ponemos la medida al logo*/
 }
 
 .button{
@@ -22,12 +29,12 @@ ul{
     padding: 5px 10px;
     border-radius: 20px;
     font-weight: bolder;
-    box-shadow: 2px 2px blue;
+  
 }
 
 .button:hover{ /*con dos puntos utilizo los modificadores en css*/
     cursor:pointer;
-    transform: scale(1.15);
+    transform: scale(1.2);
 }
 
 .mainButton{  /*Estoy modificando los atribito del boton nuevo post*/
@@ -49,6 +56,9 @@ ul{
     border: 1px solid blue;
     padding: 4px;
     border-radius: 8px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .buscar:focus-within {
@@ -58,4 +68,8 @@ ul{
 .buscar>input{  /*con este hago clases a traves de componentes hijos*/
     outline: none;
     border:0px
+}
+
+.iconoBusqueda:hover{
+    color:blue;
 }
