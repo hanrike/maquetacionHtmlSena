@@ -22,6 +22,7 @@ ul{
 
 .logo{
     height: 50px; /*le ponemos la medida al logo*/
+    border-radius: 10px; /*redondeo los bordes del logo*/
 }
 
 .button{
@@ -79,7 +80,7 @@ ul{
 }
 
 .breedCard{
-    margin: 10px;
+    margin: 30px;
     background-color: rgb(29, 95, 170);
     box-shadow: 5px 10px 5px  rgb(238, 238, 243);
     border-radius: 10px;
@@ -87,14 +88,16 @@ ul{
 
 .breedTitle{
     color: azure;
-    margin: 10px;
+    margin: 23px;
     font-weight: bold;
     font-size: x-large;
+    
+    
 }
 
 .contenedorImagen{ /*aqui declaro las medidas con la clase contenedor imagen*/
     width: 350px;
-    height:249px; 
+    height:350px; 
     display: flex; /*este contenedor padre para que funciones se debe poner un displayflex */
     margin-bottom: 10px;
 }
