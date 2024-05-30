@@ -73,3 +73,17 @@ ul{
 .iconoBusqueda:hover{
     color:blue;
 }
+
+.breedCardContainer{ /*con esta clase ya pongo la imagen al lado del otro
+    display: flex;
+}
+
+.contenedorImagen{ /*aqui declaro las medidas con la clase contenedor imagen*/
+    width: 350px;
+    height:249px;
+    display: flex; /*este contenedor padre para que funciones se debe poner un displayflex */
+}
+.contenedorImagen>img{ /*con este contenedor hacemos que la imagen se escale para que tenga las medidas que queramos*/
+    object-fit:cover; 
+    width: 100%; /*para hacer que la foto quede igual al tamanio del contenedor padre y no se pase de alli organizando mejor las fotos*/
+}
